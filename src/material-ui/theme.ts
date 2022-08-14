@@ -3,8 +3,8 @@ import { createTheme } from '@mui/material/styles';
 // Create a theme instance.
 
 const colorPrimary = "#000000"
-const colorSecondary = "#E18700"
-const colorInfo = "#E10000"
+const colorInfo = "#E18700"
+const colorSecondary = "#E10000"
 const colorText = "#000000"
 const colorWhite = "#ffffff"
 
@@ -47,6 +47,14 @@ const theme = createTheme({
           bottom: 50,
           right: 50,
           padding: '30px'
+        }
+      }
+    },
+    MuiButton: {
+      styleOverrides: {
+        containedInfo: {
+          backgroundColor: colorPrimary,
+          color: colorInfo
         }
       }
     }

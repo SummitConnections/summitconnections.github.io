@@ -4,10 +4,12 @@ import styles from './Education.module.css'
 export interface IEducationProps {
 }
 
-export function Education (props: IEducationProps) {
+function Education (props: IEducationProps) {
   return (
     <div>
-      <h1> EDUCATION </h1>
+      Education content
     </div>
   );
 }
+
+export default Education

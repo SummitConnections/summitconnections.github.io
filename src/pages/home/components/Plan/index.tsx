@@ -4,10 +4,12 @@ import styles from './Plan.module.css'
 export interface IPlanProps {
 }
 
-export function Plan (props: IPlanProps) {
+function Plan (props: IPlanProps) {
   return (
     <div>
-      <h1> PLAN </h1>
+      Plan content
     </div>
   );
 }
+
+export default Plan

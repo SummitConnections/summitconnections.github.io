@@ -22,7 +22,8 @@ a {
 
 :root {
   --color-primary: #000000;
-  --color-secondary: #E18700;
-  --color-info: #E10000;
+  --color-info: #E18700;
+  --color-secondary: #E10000;
   --color-white: #ffffff;
 }
+

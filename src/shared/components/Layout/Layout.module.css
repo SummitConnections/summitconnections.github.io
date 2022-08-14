@@ -40,7 +40,7 @@
 
 .footer {
     height: 140px;
-    background-color: #0A2E52;
+    background-color: var(--color-primary);
 }
 
 @media (max-width: 970px) {

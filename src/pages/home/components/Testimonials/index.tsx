@@ -4,10 +4,12 @@ import styles from './Testimonials.module.css'
 export interface ITestimonialsProps {
 }
 
-export function Testimonials (props: ITestimonialsProps) {
+function Testimonials (props: ITestimonialsProps) {
   return (
     <div>
-      <h1> TESTIMONIALS </h1>
+      Testimonials content
     </div>
   );
 }
+
+export default Testimonials
