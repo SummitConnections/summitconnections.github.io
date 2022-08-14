@@ -1,0 +1,28 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* FONTS / HEADINGS */
+
+/* HTML ELEMENTS */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* GLOBAL VARS */
+
+:root {
+  --color-primary: #000000;
+  --color-secondary: #E18700;
+  --color-info: #E10000;
+  --color-white: #ffffff;
+}

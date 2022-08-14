@@ -1,0 +1,53 @@
+.header {
+    background-color: var(--color-primary);
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 1px 10px rgba(0,0,0, 0.6);
+    z-index: 2;
+}
+
+.logoText {
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    font-family: 'Josefin Slab';
+    color: var(--color-secondary);
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.enquireText {
+    white-space: nowrap;
+}
+
+.navbarButton {
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-info);
+    color: var(--color-secondary);
+}
+
+.mobileNavbar {
+    display: none;
+}
+
+.main {
+    margin-top: 64px;
+}
+
+.footer {
+    height: 140px;
+    background-color: #0A2E52;
+}
+
+@media (max-width: 970px) {
+    .navbar {
+        display: none;
+    }
+    .mobileNavbar {
+        display: flex;
+    }
+}
